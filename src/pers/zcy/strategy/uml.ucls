@@ -1,83 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="pers.zcy.decorator.Person" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/Person.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="96" x="487" y="187"/>    
+  <class id="1" language="java" name="pers.zcy.strategy.OperationContext" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/OperationContext.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="181" x="193" y="86"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="pers.zcy.decorator.Trouser" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/Trouser.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="126" x="321" y="48"/>    
+  <class id="2" language="java" name="pers.zcy.strategy.OperationMul" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/OperationMul.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="-38" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="pers.zcy.decorator.Component" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/Component.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="90" x="487" y="48"/>    
+  <class id="3" language="java" name="pers.zcy.strategy.Operation" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/Operation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="133" x="193" y="225"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="pers.zcy.decorator.TShirts" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/TShirts.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="122" x="617" y="48"/>    
+  <class id="4" language="java" name="pers.zcy.strategy.OperationSub" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/OperationSub.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="116" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="pers.zcy.decorator.Cloth" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/Cloth.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="112" x="487" y="-91"/>    
+  <class id="5" language="java" name="pers.zcy.strategy.OperationAdd" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/OperationAdd.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="270" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="pers.zcy.decorator.DecoratorDemo" project="DesignPattern" 
-    file="/DesignPattern/src/pers/zcy/decorator/DecoratorDemo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="114" x="639" y="-91"/>    
+  <class id="6" language="java" name="pers.zcy.strategy.OperationDiv" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/OperationDiv.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="114" x="424" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="7">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="9">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="10" name="component"/>      
-      <multiplicity id="11" minimum="0" maximum="1"/>    
+  <class id="7" language="java" name="pers.zcy.strategy.StrategyDemo" project="design-pattern" 
+    file="/design-pattern/src/pers/zcy/strategy/StrategyDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="420" y="86"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="9" name="oper"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="12">    
+  <generalization id="11">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <generalization id="13">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
